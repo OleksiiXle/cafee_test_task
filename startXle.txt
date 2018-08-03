@@ -1,1 +1,8 @@
-Произведенные после установеи операции develop
+Произведенные после установки операции
+создать каталоги
+/var/www/xle/items/google_cafes/var/cache/dev/
+/var/www/xle/items/google_cafes/var/sessions/dev
+доступ
+sudo chmod -R 777 /var/www/xle/items/google_cafes/var/cache/dev/
+sudo chmod -R 777 /var/www/xle/items/google_cafes/var/logs
+sudo chmod -R 777 /var/www/xle/items/google_cafes/var/sessions/dev
