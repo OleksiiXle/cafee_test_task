@@ -1,3 +1,7 @@
+xle_admin:
+    resource: "@XleAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation

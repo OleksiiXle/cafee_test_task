@@ -56,4 +56,15 @@ Updating the "app/config/parameters.yml" file
 > Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installRequirementsFile
 > Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::prepareDeploymentTarget
 
+************************************************************************************************************* автозагрузка
+поменять в composer.json
+        "psr-4": {
+            "AppBundle\\": "src/AppBundle"
+        },
+на
+        "psr-4": {
+            "": "src/"
+        },
+composer update
 *************************************************************************************************************
+
