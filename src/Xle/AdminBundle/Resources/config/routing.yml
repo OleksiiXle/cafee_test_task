@@ -1,3 +1,7 @@
+xle_admin_user:
+    resource: "@XleAdminBundle/Resources/config/routing/user.yml"
+    prefix:   /user
+
 xle_admin_homepage:
     path:     /
     defaults: { _controller: XleAdminBundle:Default:index }
